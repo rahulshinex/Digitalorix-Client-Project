@@ -1,0 +1,250 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    background-color: white;
+    z-index: 1000;
+}
+
+
+.BannerContent h1 {
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+
+.BannerContent p {
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+.BannerContent ul {
+    list-style: none;
+}
+
+.BannerContent ul li {
+    font-size: 21px;
+    margin-bottom: 13px;
+
+}
+
+.BannerContent ul li i {
+    color: rgb(91, 146, 235);
+}
+
+.Bannerbtn button{
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px 0;  /* padding top & bottom 10px */
+
+}
+
+.demo-btn {
+    background-color: #10b2e8;
+    color: white;
+    
+}
+
+.demo-btn:hover {
+    background-color: rgb(59, 172, 97);
+}
+
+.book-btn {
+    width: 80%;
+    background-color: #e13434;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.book-btn:hover {
+    background-color: rgb(171, 8, 8);
+}
+
+.download-btn {
+    color: black;
+    background-color: rgb(210, 210, 210);
+}
+
+.download-btn:hover {
+    background-color: rgb(59, 172, 97);
+    color: white;
+}
+
+.BannerForm {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.BannerForm h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #30cbff;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.register-btn:hover {
+    transform: scale(1.1);
+    transition:1s
+}
+
+
+.counter-section {
+    border-radius: 10px;
+}
+
+
+.counter-section h2{
+    font-size: 30px;
+    color: #0d99d0;
+    font-weight: 700;
+}
+
+.highlight-section {
+    background-color: rgba(245, 245, 245, 0.625);
+
+}
+
+.highlight-section h1 {
+    font-weight: 700;
+}
+
+.highlight-sec2 h3 {
+    font-size: 20px;
+    padding-top: 25px
+}
+
+.highlight-sec2 p {
+    font-size: 15px;
+}
+
+
+.highlight-sec2 {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.book-btn2 {
+    font-size: 20px;
+
+}
+
+.faq-h2 {
+    font-weight: 700;
+    font-size: 33px;
+    text-align: center;
+}
+
+.faq-items {
+    display: block;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+
+.accordion-item {
+    border: 0.5px solid rgba(110, 103, 103, 0.723) !important;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 20px rgb(225, 222, 222);
+}
+
+
+.testimonial h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.cx-review {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    color: rgba(241, 151, 35, 0.827);
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 12px;
+}
+
+.cx-review img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    
+}
+
+.stu-name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.review-para {
+    text-align: center;
+    font-weight: 500;
+}
+
+.curriculum-course h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.tab-topics ul li {
+    list-style: none;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+
+.tab-topics i {
+    color: #0d99d0;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.tab-btns button {
+   font-size: 18px;
+    
+}
+
+.footer-align {
+    display: flex;
+    justify-content: start;
+}
+
+.footer-align ul li {
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.footer-align h3 {
+    color: rgb(225, 221, 221);
+    margin-left: 0px;
+}
+
+.footer-black {
+    background-color: rgb(53, 48, 48);
+    color: rgb(167, 162, 162);
+}
+
+.flex-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="icon" href="./images/Academy-Logo.png" />
+    <title>Digital Orix</title>
+</head>
+
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="DemoModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="BookDemo">Book For Demo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="email" class="Name">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="Name">Phone</label>
+                        <div class="input-group">
+                            <div class="input-group-text">+91</div>
+                            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Phone">
+                        </div>
+
+                    </div>
+                    <button class="book-btn mt-3">Book Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Header part-->
+
+    <header class="container-fluid py-2 shadow-lg position-sticky top-0 header bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <figure class="col-lg-6 col-12 text-lg-start text-center pb-0 mb-0">
+                    <img class="img-fluid" src="./images/Academy-Logo.png" alt="logo" />
+                </figure>
+
+                <div class="col-lg-6 text-end col-12 whatsapp-btn ">
+                    <button class="btn btn-outline-success chat-btn"><i class="fa-brands fa-whatsapp"></i> chat with
+                        us</button>
+                    <button class="btn btn-primary ms-4 call-btn" type="submit"><i class="fa-solid fa-phone"></i> call
+                        us</button>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <!--Banner section-->
+
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="BannerContent">
+                        <h1>Career Opportunities <br> in <span style="color: rgb(8, 171, 215);">Digital marketing</span>
+                        </h1>
+                        <p>India's Best Digital Marketing Course You Only Pay After Placement. </p>
+                        <ul class="p-0 m-0">
+                            <li><i class="fa-solid fa-circle-check"></i> Specialization Performance Marketing</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Min. Salary of Rs 4.5 LPA</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Only Few Seats Left</li>
+                        </ul>
+
+                        <div class="Bannerbtn d-flex gap-3">
+                            <button class="demo-btn" data-bs-toggle="modal" data-bs-target="#DemoModal">Book for a
+                                Demo</button>
+                            <button class="download-btn"><i class="fa-solid fa-download"></i> Download
+                                Curriculum</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Contact Form Section-->
+
+                <div class="col-lg-5">
+                    <form class="BannerForm shadow-lg">
+                        <h1>Book Your Free Class Now!</h1>
+                        <p>7 days of free demo classes without paying in <br> advance!</p>
+
+                        <div class="mb-3">
+                            <label for="name" class="Name">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="Name">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="Name">Phone</label>
+                            <div class="input-group">
+                                <div class="input-group-text">+91</div>
+                                <input type="text" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+
+                        <button class="register-btn mt-3">Register Now</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--Records and Achivments part-->
+
+        <div class="container counter-section mt-5 shadow-lg">
+            <div class="row p-4 row-cols-lg-5 row-cols-2">
+                <div class="col">
+                    <h2>10000+</h2>
+                    <p>Students Trained</p>
+                </div>
+
+                <div class="col">
+                    <h2>4.6 LPA</h2>
+                    <p>Average Package</p>
+                </div>
+
+                <div class="col">
+                    <h2>1500+</h2>
+                    <p>Hiring Partners</p>
+                </div>
+
+                <div class="col">
+                    <h2>90 % </h2>
+                    <p>Placement Rate</p>
+                </div>
+
+                <div class="col">
+                    <h2>24*7</h2>
+                    <p>Customer Support</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Highlights of the Course-->
+
+    <section class="container-fluid highlight-section mb-3">
+        <div class="container">
+            <div class="row mb-2 py-4">
+                <h1>Key Highlights of the Course</h1>
+                <p>India's no.1 largest successfull Institute in Digital Marketing Strategy</p>
+            </div>
+
+
+            <div class="row gy-5 ">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-2 gap-2 d-flex highlight-sec2 align-items-center shadow">
+                        <img src="./images/test.png" alt="img" />
+                        <div>
+                            <h3>Assignment & <br>Modules Tests</h3>
+                            <p>50+ assignment with online test</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-2 gap-2 d-flex highlight-sec2 align-items-center shadow">
+                        <img src="./images/evalution.png" alt="img" />
+                        <div>
+                            <h3>Weekly & Monthly <br> Test Evaulation</h3>
+                            <p>monthly evaulution to check knowledge</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-2 gap-2 d-flex highlight-sec2 align-items-center shadow">
+                        <img src="./images/interview.png" alt="img" />
+                        <div>
+                            <h3>Mock Interviews <br>Live Experience</h3>
+                            <p>mock interviews with industry expert</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-2 gap-2 d-flex highlight-sec2 align-items-center shadow">
+                        <img src="./images/cv.png" alt="img" />
+                        <div>
+                            <h3>Resume Building <br>With AI Tools</h3>
+                            <p>resume building with onilne tools</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-2 gap-2 d-flex highlight-sec2 align-items-center shadow">
+                        <img src="./images/guidence.png" alt="img" />
+                        <div>
+                            <h3>Dedicated Career <br>Guidence Coach</h3>
+                            <p>career guidence Training by coach</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="p-2 gap-2 d-flex highlight-sec2 align-items-center shadow">
+                        <img src="./images/reports.png" alt="img" />
+                        <div>
+                            <h3>Monthly Progess <br>Reports With Marks</h3>
+                            <p>progress report to check yourself</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-5 mb-5">
+                    <div class="col-12  d-flex justify-content-center ">
+                        <button type="button" class="btn btn-primary book-btn2 px-4" data-bs-toggle="modal"
+                            data-bs-target="#DemoModal">Book Free Class
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Course Curriculum Section-->
+
+    <section>
+        <div class="container-fluid">
+            <div class="container mt-3 mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center curriculum-course">
+                        <h1>Curriculum of <br> Digital Marketing Course</h1>
+                        <p>With a curriculum designed by industry experts, you will get the skills and
+                            mentorship for guaranteed success.
+                        </p>
+                    </div>
+                </div>
+
+                <!--curriculum Button section-->
+
+                <div class="row">
+                    <div class="col-12 py-3 tab-btns d-flex justify-content-center">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#Introduction" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Introduction
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#SEO-Mastery" type="button" role="tab" aria-controls="pills-profile"
+                                    aria-selected="false">SEO-Mastery</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#Google-Ads" type="button" role="tab" aria-controls="pills-contact"
+                                    aria-selected="false">Google-Ads</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#PPC-Campaign" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">PPC-Campaign</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#Social-mediaAds" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">Social-mediaAds</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <!--Curriculum full detailed points-->
+
+                    <div class="tab-content tab-topics" id="pills-tabContent">
+
+                        <div class="tab-pane fade show active" id="Introduction" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="row shadow-lg p-4">
+                                <div class="col-12">
+                                    <h3>Introduction</h3>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Definition of Digital Marketing
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Importance in Modern Business</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Personalization and Customer
+                                            Targeting</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Cost-Effective and High ROI</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Continuous Evolution</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Creating an Action Plan for your
+                                            Presentation
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Preparing a Presentation that
+                                            Influence</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Present with Confidence</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Audit & Strageise the Brand</li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade show " id="SEO-Mastery" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="row shadow-lg p-4">
+                                <div class="col-12">
+                                    <h3>SEO-Mastery</h3>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Keyword Research and Optimization
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> On-Page SEO for website</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> SEO Analytics and Reporting</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Content Creation and Optimization
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> User Experience (UX) and SEO</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Link Building
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Voice Search Optimization</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> SERP Features Optimization</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Content Refresh and Updating</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Off page SEO</li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade show" id="Google-Ads" role="tabpanel" aria-labelledby="pills-home-tab"
+                            tabindex="0">
+                            <div class="row shadow-lg p-4">
+                                <div class="col-12">
+                                    <h3>Google-Ads</h3>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Types of Campaigns
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Keyword Research for Ads</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Ad Testing and Optimization</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Remarketing and Retargeting</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Google Ads Budget Management</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Dynamic Ads and Responsive Ads
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Landing Page Optimization</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Bidding Strategies</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Audience Targeting</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Ad Extensions</li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade show" id="PPC-Campaign" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="row shadow-lg p-4">
+                                <div class="col-12">
+                                    <h3>PPC-Campaign</h3>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Types of PPC Campaigns
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Keyword Research and Selection
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Ad Copywriting for PPC</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Audience Targeting and Segmentation
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Quality Score Optimization</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Remarketing Campaigns
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Analyzing PPC Metrics
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Competitor Analysis</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Ad Policy Compliance</li>
+                                    </ul>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade show" id="Social-mediaAds" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="row shadow-lg p-4">
+                                <div class="col-12">
+                                    <h3>Social-Media Ads</h3>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Types of Social Media Ads
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Ad Copywriting for Social Media
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Visual Content Creation</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> A/B Testing for Social Media Ads
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Influencer and Partner
+                                            Collaborations</li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <ul class="p-0 m-0">
+                                        <li><i class="fa-solid fa-circle-check"></i> Ad Placement Strategy
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Retargeting and Remarketing
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Ad Scheduling</li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Social Media Ad Metrics
+                                        </li>
+                                        <li><i class="fa-solid fa-circle-check"></i> Content Calendar Planning</li>
+                                    </ul>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--FAQs Related section-->
+
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-3">
+                        <h2 class="faq-h2">Digital Marketing Course Related<br> FAQs </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9 col-12 faq-items mt-4">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Q.1 Is this a Digital Marketing course with certification?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>" Yes, this is a double certification course."</strong> This course prepares
+                                you for a Google Ads Search certification. You will also receive a certificate upon
+                                course completion from Internshala.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Q.2 What is the estimated salary of the Digital Marketer?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The estimated salary of the Digital marketer is fabulous.</strong> It starts
+                                with 3 lakh per annum for the freshers and slowly it increases itself to 12-14 lakh
+                                per annum. No doubt on why Digital Marketing courses are so popular.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Q.3 What is the difference between Digital marketing and inbound marketing?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Digital marketing attracts people through advertising</strong> themselves on
+                                social media, videos, blogs etc to match their targets and increase the traffic to
+                                their websites. You may say it meets short-term goals. On the other hand, Inbound
+                                marketing is a long-term process which is based on attracting customers. It does not
+                                rely much on digital marketing or engagement.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Q.4 What are the key topics covered in this Digital Marketing Certificate course?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The key topics covered in this course are:</strong>
+                                <ul>
+                                    <li>Building Web Presence, Google Analytics, and other Digital Marketing Tools
+                                    </li>
+                                    <li>Social Media Marketing</li>
+                                    <li>Email Marketing</li>
+                                    <li>SEO</li>
+                                    <li>Digital Advertising with Google Ads</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Q.5 What industries use digital marketing the most?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Digital marketing is used in many different industries, but it is especially
+                                    popular in the following industries:</strong>
+                                <ul>
+                                    <li>Retail</li>
+                                    <li>Media & Entertainment</li>
+                                    <li>E-commerce</li>
+                                    <li>Financial Services</li>
+                                    <li>Hospitality</li>
+                                    <li>Nutrition and Fitness</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--Students Testimonials section -->
+
+        <div class="container testimonial mt-5">
+            <h2>What Students Say About Our Course ?</h2>
+            <div class="row row-cols-md-4 row-cols-12 gap-5 py-5 justify-content-center row-testimonial">
+
+                <div class="col shadow">
+                    <div class="cx-review">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyVzNFeIE-Jgxt2_SUdPSqn0xKsajsfeK7_w&s"
+                            alt="cx">
+                    </div>
+
+                    <p class="stu-name">Hitesh Kumar</p>
+
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="review-para">
+                        <p>The course was great. The best part about it were the live projects which the recruiters
+                            liked during the interview process and helped me crack a placement.It was wonderful
+                            experience
+                            with this institute and management. Thanks digital orix
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col shadow">
+                    <div class="cx-review">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRukNUn8twP1zcVhjCRvlHUtXPRWR5tMRJZg&s"
+                            alt="cx">
+                    </div>
+
+                    <p class="stu-name">Rakesh Gupta</p>
+
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="review-para">
+                        <p>After having a challenging yet fun learning experience during this Digital Marketing course
+                            with placement, I was very happy to crack an internship. I got hired at two companies after
+                            completing, and decided to go with Sunstone where I'm having a lot of fun.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col shadow">
+                    <div class="cx-review">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1wVwppiJUEaWBO9g1EFL7OFTaC6mqaXBYg&s"
+                            alt="cx">
+                    </div>
+
+                    <p class="stu-name">Ravina Yadav</p>
+
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="review-para">
+                        <p>I would like to start my business and wanted to gain knowledge about marketing for it. So I
+                            enrolled for the course. I thought if I got a placement, it would be an icing on the cake,
+                            and I did get placed. Thanks for all teachers and collegues
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="footer-black">
+
+        <div class="container pb-4 pt-5">
+            <div class="row footer-align">
+                <div class="col-lg-6">
+                    <div class="flex-start">
+                        <h3 class="">Contact Info</h3>
+                        <ul class="contact-info">
+                            <li><i class="fa-solid fa-location-dot"></i> Basement, 30A, Sultan Nagar, Santi Nagar,<br>Gurjar Ki Thadi,
+                                Jaipur, Rajasthan 302019</li>
+                            <li><i class="fa-solid fa-phone"></i>
+                                <Link to="tel:+91-9818560331"><strong> +91-9818560331</strong></Link>
+                            </li>
+                            <li><i class="fa-solid fa-envelope"></i>
+                                <Link to="mailto:Info@Mbbsinvietnam.Com"> mail@digitalorixacademy.com</Link>
+                            </li>
+                            <li><i class="fa fa-clock"></i> Mon-Sat: 10:00 AM to 7:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container col-lg-3">
+                    <div class="flex-start">
+                        <h3 class="">Quick Links</h3>
+                        <ul>
+                            <li>
+                                <Link to="#">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="#">About us</Link>
+                            </li>
+                            <li>
+                                <Link to="#">Privacy Policy</Link>
+                            </li>
+                            <li>
+                                <Link to="#">Contact us</Link>
+                            </li>
+                            <li>
+                                <Link to="#">News & Blog</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container col-lg-3">
+                    <div class="flex-start">
+                        <h3 class="">Services</h3>
+                        <ul>
+                            <li>
+                                <Link to="#">Training Programs</Link>
+                            </li>
+                            <li>
+                                <Link to="#">Workshops and Webinars</Link>
+                            </li>
+                            <li>
+                                <Link to="#">Consulting Services</Link>
+                            </li>
+                            <li>
+                                <Link to="#">Job Placement Assistance</Link>
+                            </li>
+                            <li>
+                                <Link to="#">Quality Assurance</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom pt-25 pb-25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="copyright-text">
+                            <p>Copyright by DigitalOrix . All rights reserved in 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap javascript file link-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

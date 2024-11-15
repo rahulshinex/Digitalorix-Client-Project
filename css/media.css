@@ -1,0 +1,66 @@
+@media only screen and (min-width:200px) and (max-width: 575px) {
+    .whatsapp-btn {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 10px 0;
+    }
+
+    .chat-btn, .call-btn {
+        font-size: 14px;
+    }
+
+    .BannerContent h1 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+
+    }
+
+    .BannerContent br {
+       display: none;
+    }
+
+    .BannerContent p, .BannerContent ul li {
+        font-size: 16px;
+    }
+
+    .Bannerbtn {
+        flex-direction: column;
+    }
+
+    .Bannerbtn button {
+        width: 100%;   
+    }
+
+    .BannerForm {
+        margin-top: 25px;
+    }
+
+    .faq-h2 {
+        font-size: 27px;
+    }
+
+    .curriculum-course h1 {
+        font-size: 27px;
+    }
+
+    .testimonial h2 {
+        font-size: 27px;
+    }
+
+    .row-testimonial {
+        gap: 1rem !important;
+    }
+
+    .row-testimonial {
+        padding: 10px 0 10px 0 !important;
+    }
+
+   
+}
