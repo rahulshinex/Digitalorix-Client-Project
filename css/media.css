@@ -62,5 +62,16 @@
         padding: 10px 0 10px 0 !important;
     }
 
+    .copyright-text {
+        margin-bottom: 20px;
+        padding-top: 0px !important;
+        margin-top: 0px;
+    }
+
+    .footer-bottom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
    
 }
